@@ -19,7 +19,6 @@ def test_get_db_connection():
   print("✅ Env vars loaded")
 
 
-
   # Test 2: Connection returns a pyodbc.Connection object
 
   conn = get_db_connection()
